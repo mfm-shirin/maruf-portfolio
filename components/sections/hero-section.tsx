@@ -63,18 +63,27 @@ export function HeroSection() {
           Passionate about cybersecurity, AI safety and secure systems, with a growing focus on ethical hacking, threat detection and real world security challenges.
         </motion.p>
 
-        <motion.div
+       <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
-        >
-          <button className="px-8 py-3 bg-gradient-to-r from-accent to-primary text-foreground font-semibold rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:-translate-y-1">
+          >
+          <a
+            href="#projects"
+            className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-accent to-primary text-foreground font-semibold rounded-lg hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:-translate-y-1"
+          >
             View My Work
-          </button>
-          <button className="px-8 py-3 border border-accent text-accent font-semibold rounded-lg hover:bg-accent/10 transition-all duration-300">
+          </a>
+
+          <a
+            href="/Maruf_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 border border-accent text-accent font-semibold rounded-lg hover:bg-accent/10 transition-all duration-300"
+          >
             Download Resume
-          </button>
+          </a>
         </motion.div>
 
         <motion.div
