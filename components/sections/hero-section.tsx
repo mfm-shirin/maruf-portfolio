@@ -77,13 +77,14 @@ export function HeroSection() {
           </a>
 
           <a
-            href="/Maruf_Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-3 border border-accent text-accent font-semibold rounded-lg hover:bg-accent/10 transition-all duration-300"
-          >
-            Download Resume
-          </a>
+          href="/Maruf_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          className="inline-flex items-center justify-center px-8 py-3 border border-accent text-accent font-semibold rounded-lg hover:bg-accent/10 transition-all duration-300"
+        >
+          Download Resume
+        </a>
         </motion.div>
 
         <motion.div
